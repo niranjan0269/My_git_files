@@ -1,3 +1,6 @@
-#asldkffkljheffg
-dfefewgfklg
-fflkfjlkfj
+num=$1
+if [[ $(($num%3)) -eq 0]] -a [[ $(($num)) -eq 0 ]]; then
+    echo "The given number $num is divisible by three also it is even number
+else
+    echo "The given number $num is not divisible by three"
+fi
